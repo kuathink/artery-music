@@ -1,37 +1,57 @@
 # ArteryMusic
 
 #### 介绍
-这是一个简单的在线音乐系统（动脉音乐）
+一个简单的在线音乐系统（动脉音乐网站）
 
 #### 软件架构
-软件架构说明
+Java
+
+Javaweb
+
+Servlet
+
+Jsp
+
+mybatis
+
+mysql
+
+***需要引入的jar包***
+
+```java
+commons-dbutils-1.7.jar
+javax.servlet-api-4.0.1.jar
+jstl-1.2.jar
+mybatis-3.5.11.jar
+mysql-connection-j-8.0.32.jar
+```
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  执行SQL，创建数据库
+2.  项目导入IDEA 启动
+3.  访问测试！
+4.  自行根据代码逻辑填充测试数据，查看即可！
 
-#### 使用说明
+#### 演示界面
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 首页
+![image-20230814140919233](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814140919233.png)
 
-#### 参与贡献
+- 登录
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![image-20230814141233940](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141233940.png)
 
+- 注册
 
-#### 特技
+![image-20230814141309424](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141309424.png)
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 数字商店（音乐会员购买）
+
+![image-20230814141638094](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141638094.png)
+
+- 管理员操作界面
+
+![image-20230814141418966](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141418966.png)
+
