@@ -1,0 +1,203 @@
+/**
+ * 登录布局
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg04.jfif') no-repeat 0 0;
+    background-size: cover;
+    background-attachment: local;
+
+}
+
+.whole {
+    width: 100%;
+    height: 100%;
+    /* 背景模糊效果 */
+    position: absolute;
+    /* backdrop-filter: blur(10px); */
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    /* -webkit-animation: blur(50px); */
+}
+
+.head {
+    width: 80px;
+    /* height: 100%; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.head > .logo-image {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image a {
+    color: white;
+    font-size: 30px;
+}
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.main_message {
+    width: 900px;
+    font-family: "得意黑";
+    color: #fff;
+    font-size: 50px;
+    padding-left: 50px;
+    /* background-color: #4E7A4E; */
+    position: static;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.main_right {
+    flex: 1;
+    /* background-color: #F3F3F3; */
+    /* border: 1px solid black; */
+    height: 100%;
+    /* background: rgba(255, 255, 255, 0.2); */
+
+}
+
+.form-menu {
+    height: 100%;
+    padding: 0 10px;
+}
+
+.form-menu > .select-menu {
+    height: 60px;
+    /* background-color: #D7D7D7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+a {
+    font-family: "得意黑";
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    border-radius: 4px;
+}
+
+.form-menu > .select-menu p {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.form-menu > .input-menu, .btn-menu, .icon-menu {
+    width: auto;
+    padding: 6px;
+}
+
+.form-menu > .input-menu div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-menu > .input-menu input {
+    display: flex;
+    width: 240px;
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    /* border-bottom: 1px solid white; */
+    /* background: none; */
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-align: center;
+    font-family: "得意黑 斜体";
+    font-size: 16px;
+    outline: none;
+}
+
+/**
+ * 验证码
+ */
+
+.form-menu > .input-menu > .input-verificationCode input:first-child {
+    width: 140px;
+}
+
+.form-menu > .input-menu > .input-verificationCode input:nth-child(2) {
+    width: 80px;
+    font-size: 0.75rem;
+    border: 0.0625rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-left: 20px;
+}
+
+
+.form-menu > .input-menu input::placeholder {
+    color: #D7D7D7;
+    font-size: 14px;
+}
+
+.form-menu > .btn-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* 登录 */
+.form-menu > .btn-menu input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form-menu > .icon-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.icon-menu a {
+    font-size: 25px;
+    margin: 0 10px;
+}
+

@@ -1,0 +1,18 @@
+# 创建数据库 arterymusic
+create database arterymusic;
+# 使用 arterymusic 数据库
+use arterymusic;
+# 创建数据表 an_user
+create table an_user(
+     id int(30) primary key AUTO_INCREMENT,
+     account varchar(30) not null ,
+     password varchar(30) not null,
+     email varchar(30) not null
+);
+# 向 user 表插入三条数据,注意：values中应使用单引号''。
+insert into an_user (account,password,email)
+values ('mayekun','454512','qq@am.com'),
+       ('lixin','456123','ls@am.com'),
+       ('douyuemei','654321','wu@am.com');
+# 查询数据库 jdbc 中的 user 数据表
+select *from arterymusic.an_user;

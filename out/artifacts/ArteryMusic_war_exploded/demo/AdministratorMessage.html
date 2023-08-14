@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>音乐人中心</title>
+        <link rel="stylesheet" href="../css/iconfont.css">
+        <link rel="stylesheet" href="css/adminMessageStyle.css">
+        <link rel="stylesheet" href="../css/otherIcon.css">
+        <style type="text/css">
+            h2 {
+                歌手中心 height: 80px;
+                line-height: 80px;
+                padding-left: 60px;
+                background: #FFFFFF;
+                position: fixed;
+
+            }
+
+            .copyMessage {
+                display: block;
+                width: 300px;
+                height: 200px;
+                line-height: 200px;
+                padding: 20px;
+                background: #00A5A2;
+                text-align: center;
+                float: left;
+                border-top-left-radius: 12px;
+                border-bottom-left-radius: 12px;
+            }
+
+            .Message {
+                display: inline;
+                width: 600px;
+                height: 200px;
+                padding: 20px;
+                background: #FFFFFF;
+                float: left;
+                border-top-right-radius: 12px;
+                border-bottom-right-radius: 12px;
+            }
+
+            .Message input {
+                width: 300px;
+                font-size: 18px;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+
+            button {
+                height: 30px;
+                background: #00A5A2;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                font-weight: bold;
+
+            }
+
+            button:hover {
+                color: black;
+                background: #D5D5D5;
+                text-align: center;
+                border-radius: 6px;
+            }
+
+            .all {
+
+                /* text-align: center; /*让div内部文字居中*/
+                border-radius: 20px;
+                width: 1000px;
+                height: 350px;
+                /* position: absolute; */
+                /* top: 0; */
+                /* left: 0;
+                right: 0;
+                bottom: 0; */
+                */
+            }
+
+            .dm_head {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100px;
+                background-color: antiquewhite;
+                position: sticky;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .dm_head_nav {
+                width: 100%;
+                height: 80px;
+                background-color: aqua;
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+
+            <!-- head部分01开始 -->
+            <div class="dm-head-1">
+                <!-- <div class="dm-head-logo">
+                    <img src="images/DmaiMusicImage/动脉音乐透明logo.png" alt="" class="logoImg animate__animated animate__lightSpeedInLeft ">
+                </div>
+                <div class="dm-head-1-search">
+                    <a href="#" class="search_icon iconfont icon-sousuo"></a>
+                    <input type="text" class="dm-head-1-search-input" placeholder="听我想听的,唱我所爱">
+                </div> -->
+                <div class="dm-head-1-nav">
+                    <div class="nav_tab">
+                        <a href="../index.jsp">
+                            <b>首页</b>
+                        </a>
+                    </div>
+                    <div class="nav_tab">
+                        <a href="#">
+                            <b>音乐人中心</b>
+                        </a>
+                    </div>
+                    <div class="nav_tab">
+                        <a href="#">
+                            <b>帮助</b>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="dm-head-1-tab">
+                    <a href="index.html" class="dm-head-1-tabDescription"><b>首页</b></a>
+                </div> -->
+
+                <div class="dm-head-1-tabOther"></div>
+
+                <div class="dm-head-1-tab">
+                    <a href="#" class="dm-head-1-tabMessage">
+                        <i class="iconfont icon-xinxi-copy"></i>
+                    </a>
+                </div>
+
+                <div class="dm-head-1-tabMy">
+                    <div class="myImg">
+
+                    </div>
+                </div>
+            </div>
+            <!-- head部分结束-->
+
+            <!-- main布局开始-->
+            <div class="main">
+                <!-- 左侧导航栏-->
+                <div class="main_left">
+                    <div class="main_item">
+                        <div class="main_left_title">
+                            <div class="release_song">
+                                <i class="iconfont icon-fabu"></i>
+                                <a href="#">发布歌曲</a>
+                            </div>
+                        </div>
+                        <ul class="main_left_subnav">
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-home"></i>
+                                    <b>主页</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-musicguangli"></i>
+                                    <b>作品管理</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-shouyi"></i>
+                                    <b>结算收益</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-shuju"></i>
+                                    <b>数据管理</b>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 右侧导航栏-->
+                <div class="main_right">
+                    <div class="right_item">
+                        <!-- 公告-->
+                        <div class="right_gonggao">
+                            <img src="../images/DmaiMusicImage/公告2.png" alt="">
+                            <b>关于动脉音乐认证标准的说明公告...</b>
+                            <!-- <marquee behavior="" direction="" scrollamount="1" onmouseover="this.stop()" onmouseout="this.start()">
+                                <b>关于动脉音乐认证标准的说明公告...</b>
+                            </marquee> -->
+                        </div>
+                        <!-- user-->
+                        <div class="right_user">
+                            <div class="userImg"></div>
+                            <div class="userMessage">
+                                <div class="name">潮男范特西</div>
+                                <div class="identity" style="display: flex;align-items: center;">
+                                    <img src="../images/DmaiMusicImage/identity_green.png" alt="">
+                                    <a href="#">动脉音乐人、歌手、独家签约艺人</a>
+                                    <i class="iconfont icon-right"></i>
+                                </div>
+                                <span><b>ID：dm0001</b></span>
+                            </div>
+                        </div>
+
+                        <!-- 音乐详细类-->
+                        <div class="music_detailed">
+                            <!-- 音乐数据-->
+                            <div class="music-data">
+                                <div class="data-box">
+                                    <p><span><b>音乐播放量(次)</b></span></p>
+                                    <div class="dataImg">
+                                        <i class="iconfont icon-bofangliang"></i>
+                                    </div>
+                                    <div class="dataNumber">
+                                        <span>500.2w</span>
+                                    </div>
+                                </div>
+                                <div class="data-box">
+                                    <p><span><b>作品(首)</b></span></p>
+                                    <div class="dataImg">
+                                        <i class="iconfont icon-fabuguanli"></i>
+                                    </div>
+                                    <div class="dataNumber">
+                                        <span>1628</span>
+                                    </div>
+                                </div>
+                                <div class="data-box">
+                                    <p><span><b>累计收入(亿)</b></span></p>
+                                    <div class="dataImg">
+                                        <i class="iconfont icon-shouru"></i>
+                                    </div>
+                                    <div class="dataNumber">
+                                        <span>￥8888.88w</span>
+                                    </div>
+                                </div>
+                                <div class="data-box">
+                                    <p><span><b>音乐人指数</b></span></p>
+                                    <div class="dataImg">
+                                        <i class="iconfont icon-zhishu"></i>
+                                    </div>
+                                    <div class="dataNumber" style="border: none;">
+                                        <span>99.8%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 音乐活动-->
+                            <div class="music-activity">
+                                <div class="activity-nav">
+                                    <p><b>推荐活动</b></p>
+                                </div>
+                                <div class="activity-box">
+                                    <div class="activity-box-1">
+                                    </div>
+                                    <div class="activity-box-2"></div>
+                                    <div class="activity-box-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End -->
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- main布局结束 -->
+
+
+
+
+            <!-- <div class="all">
+                <div class="copyMessage">
+                <h3 style="font-size: 22px;">请复制右侧信息联系管理员</h3>
+                </div>
+                <div class="Message">
+                    <span><b>管理员QQ&nbsp;：</b><input id="QQ" style="border: none; " value="2532615203"></span>
+                    <button id='copyQQ' onclick=copyQQ()>点击复制</button>
+                    <br><br><br>
+                    <span><b>管理员邮箱：</b><input id="Email" style="border: none; " value="2532615203@qq.com"></span>
+
+                    <button id='copyEmail' onclick=copyEmail()>点击复制</button>
+
+                </div>
+            </div> -->
+            <!-- <script type="text/javascript" src="js/copyFunction.js"></script> -->
+        </div>
+
+    </body>
+</html>
+

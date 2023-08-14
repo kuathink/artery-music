@@ -1,0 +1,105 @@
+/**
+this is the style for admin.jsp
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 在窗口宽度小于768px时修改div宽度 */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.container > .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header > .header-menu {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.header-menu > .iconfont {
+    font-size: 25px;
+    vertical-align: middle;
+    padding-right: 6px;
+}
+
+.backstage {
+    /*position: relative;*/
+    /*padding-left: 33px;*/
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    width: 200px;
+}
+
+/*.backstage::before{*/
+/*    content: "\e61b";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    font-size: 25px;*/
+
+/*}*/
+
+/**
+tab
+ */
+
+.main {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.tab-menu {
+    width: 160px;
+    padding: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: static;
+    min-height: 700px;
+
+}
+
+
+ul li {
+    list-style: none;
+    /*text-align: center;*/
+    height: 30px;
+    line-height: 30px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+li:hover {
+    background-color: #e3e3e3;
+}
+
+.tab-menu .icon {
+    font-size: 22px;
+    margin-right: 6px;
+}
+
+.tab-menu a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.btnInfo {
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

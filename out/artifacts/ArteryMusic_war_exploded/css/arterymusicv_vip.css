@@ -1,0 +1,144 @@
+/**
+ * livehouse page style beautification
+ */
+
+
+.vip {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #282424;
+    align-items: center;
+    justify-content: center;
+}
+
+.menber {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    font-size: 16px;
+    font-family: "black-ops-one";
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.vip_1 {
+    width: 250px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.vip_2 {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+    float: right;
+}
+
+.menber p {
+    height: 80px;
+    padding-top: 60px;
+    font-size: 26px;
+    font-family: "华文隶书";
+}
+
+.menber .vip_1_head, .vip_2_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 30px;
+}
+
+
+.btnSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #004792; */
+}
+
+.btnSelect_PayVIP, .btnSelect_monthlyPaySVIP, .btnSelect_annualPaySVIP {
+    width: 100%;
+    margin: 0 32px;
+}
+
+.btnSelect_PayVIP:hover {
+    background: linear-gradient(#FFF700, white);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.btnSelect_monthlyPaySVIP:hover, .btnSelect_annualPaySVIP:hover {
+    background: linear-gradient(#00FFFB, white);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.agreement {
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-content: center;
+    /* 置于all容器底部第二部 */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #ffffff80;
+}
+
+/*鼠标悬停处设置*/
+a:hover {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.agreement p {
+    display: flex;
+    width: 100%;
+    color: #ffffff80;
+    justify-content: center;
+}
+
+.musicAlbum {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: #00FFFB */
+}
+
+.musicAlbum_img > img {
+    width: 40px;
+    height: 40px;
+}
+
+.musicAlbum_img {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
