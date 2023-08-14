@@ -38,21 +38,21 @@ mysql-connection-j-8.0.32.jar
 
 - 首页
 
-![image-20230814144511195](C:/Users/Soak/AppData/Roaming/Typora/typora-user-images/image-20230814144511195.png)
+![image-20230814144511195](upload/index.png)
 
 - 登录
 
-![image-20230814141233940](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141233940.png)
+![image-20230814141233940](upload/login.png)
 
 - 注册
 
-![image-20230814141309424](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141309424.png)
+![image-20230814141309424](upload/register.png)
 
 - 数字商店（音乐会员购买）
 
-![image-20230814141638094](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141638094.png)
+![image-20230814141638094](upload/digital_store.png)
 
 - 管理员操作界面
 
-![image-20230814141418966](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814141418966.png)
+![image-20230814141418966](upload/admin.png)
 
