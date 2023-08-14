@@ -37,7 +37,8 @@ mysql-connection-j-8.0.32.jar
 #### 演示界面
 
 - 首页
-![image-20230814140919233](C:\Users\Soak\AppData\Roaming\Typora\typora-user-images\image-20230814140919233.png)
+
+![image-20230814144511195](C:/Users/Soak/AppData/Roaming/Typora/typora-user-images/image-20230814144511195.png)
 
 - 登录
 
