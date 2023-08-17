@@ -4,17 +4,7 @@
 一个简单的在线音乐系统（动脉音乐网站）
 
 #### 软件架构
-Java
-
-Javaweb
-
-Servlet
-
-Jsp
-
-mybatis
-
-mysql
+`Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
 
 ***需要引入的jar包***
 

@@ -16,10 +16,8 @@ public interface UserMapper {
     List<User> queryAll();
 
     /**
-     * 通过用户名查询用户
-     *
-     * @param account
-     * @return
+     * 1.通过用户名查询用户
+     * 2.通过 id 查询用户
      */
     User queryUserByUserName(String account);
 
