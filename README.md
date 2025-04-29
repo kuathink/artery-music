@@ -1,5 +1,5 @@
-# ArteryMusic
-
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic v1.0.0</h1>
+<h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站</h4>
 #### 介绍
 一个简单的在线音乐系统（动脉音乐网站）
 
