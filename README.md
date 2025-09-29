@@ -9,7 +9,7 @@
 `Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
 
 ***需要引入的jar包***
-
+>可去`Maven Repository`官网下载：[https://mvnrepository.com/](https://mvnrepository.com/)
 ```java
 commons-dbutils-1.7.jar
 javax.servlet-api-4.0.1.jar
@@ -22,9 +22,7 @@ mysql-connection-j-8.0.32.jar
 #### 安装教程
 
 1.  执行SQL，创建数据库
-```md
-(SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
-```
+    (SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
 2.  项目导入IDEA 启动
 3.  访问测试！
 4.  自行根据代码逻辑填充测试数据，查看即可！
