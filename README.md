@@ -47,25 +47,25 @@ mysql-connection-j-8.0.32.jar
 ### 演示界面
 #### 前端
 
-- 首页
+1)首页
 
 ![image-20230814144511195](upload/index.png)
 
-- 登录
+2)登录
 
 ![image-20230814141233940](upload/login.png)
 
-- 注册
+3)注册
 
 ![image-20230814141309424](upload/register.png)
 
-- 数字商店（音乐会员购买）
+4)数字商店（音乐会员购买）
 
 ![image-20230814141638094](upload/digital_store.png)
 
 
 #### 后端
-- 管理员操作界面
+1)管理员操作界面
 
 ![image-20230814141418966](upload/admin.png)
 
