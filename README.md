@@ -12,9 +12,10 @@
    </a>
 </p>
 
-#### 介绍
+#### 关于动脉音乐
 
-一个简单的在线音乐系统（动脉音乐网站）
+ArteryMusic是一个简单的在线音乐系统（动脉音乐网站），支持用户登录、用户注册、信息管理（增删改查）、音频播放以及数字购买商店等，集成最新的mysql数据库和mybatis框架；
+极大的提升该项目的使用体验与后续二次开发。
 
 #### 软件架构
 `Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
@@ -41,6 +42,7 @@ mysql-connection-j-8.0.32.jar
 4.  自行根据代码逻辑填充测试数据，查看即可！
 
 #### 演示界面
+##### 前端
 
 - 首页
 
@@ -58,6 +60,7 @@ mysql-connection-j-8.0.32.jar
 
 ![image-20230814141638094](upload/digital_store.png)
 
+##### 后端
 - 管理员操作界面
 
 ![image-20230814141418966](upload/admin.png)
