@@ -23,9 +23,8 @@ mysql-connection-j-8.0.32.jar
 
 1.  执行SQL，创建数据库
 ```md
-SQL文件位于：[https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl](https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
+(SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
 ```
-    (SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
 2.  项目导入IDEA 启动
 3.  访问测试！
 4.  自行根据代码逻辑填充测试数据，查看即可！
