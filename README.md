@@ -1,5 +1,5 @@
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic v1.0.0</h1>
-<h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站</h4>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic v1.1</h1>
+<h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
 
 #### 介绍
 
@@ -21,7 +21,7 @@ mysql-connection-j-8.0.32.jar
 
 #### 安装教程
 
-1.  执行SQL，创建数据库
+1.  执行SQL，创建数据库(SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
 2.  项目导入IDEA 启动
 3.  访问测试！
 4.  自行根据代码逻辑填充测试数据，查看即可！
