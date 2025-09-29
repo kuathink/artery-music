@@ -5,7 +5,7 @@
       <img src="https://gitee.com/mayestspace/artery-music/badge/star.svg?theme=gvp">
    </a>
 	<a href="https://gitee.com/mayestspace/artery-music">
-      <img src="https://img.shields.io/badge/artery-music-v1.1-brightgreen.svg">
+      <img src="https://img.shields.io/badge/ArteryMusic-v1.1-brightgreen.svg">
    </a>
 	<a href="https://gitee.com/mayestspace/artery-music/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
