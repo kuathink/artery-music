@@ -61,7 +61,6 @@ mysql-connection-j-8.0.32.jar
 
 ![image-20230814141638094](upload/digital_store.png)
 
-![image-20230814141638094](upload/artery_music_logo.png)
 
 #### 后端
 - 管理员操作界面
