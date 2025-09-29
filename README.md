@@ -1,5 +1,16 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic v1.1</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
+<p align="center">
+   <a href="https://gitee.com/mayestspace/openfeet/stargazers">
+      <img src="https://gitee.com/mayestspace/artery-music/badge/star.svg?theme=gvp">
+   </a>
+	<a href="https://gitee.com/mayestspace/artery-music">
+      <img src="https://img.shields.io/badge/openfeet-v1.0.1-brightgreen.svg">
+   </a>
+	<a href="https://gitee.com/mayestspace/artery-music/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+   </a>
+</p>
 
 #### 介绍
 
