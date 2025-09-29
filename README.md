@@ -25,7 +25,7 @@ ArteryMusic是一个简单的在线音乐系统（动脉音乐网站），支持
 ### 软件架构
 `Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
 
-***需要引入的jar包***
+***需要引入的 jar 包***
 >可去`Maven Repository`官网下载：[https://mvnrepository.com/](https://mvnrepository.com/)
 ```java
 commons-dbutils-1.7.jar
