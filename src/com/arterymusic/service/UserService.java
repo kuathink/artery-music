@@ -75,7 +75,7 @@ public class UserService {
      * 验证用户名是否符合格式要求
      * 长度为5~11个字符，字母开头，可包含字母、数字、-、_，不含特殊字符
      *
-     * @param username
+     * @param username 用户名
      * @return
      */
     public boolean isValidUsername(String username) {
@@ -89,7 +89,7 @@ public class UserService {
      * 验证密码是否符合格式要求
      * 长度为4~10个字符，字母开头，可包含字母、数字、" . "，不含特殊字符
      *
-     * @param password
+     * @param password 密码
      * @return
      */
     public boolean isValidPassword(String password) {

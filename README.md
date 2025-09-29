@@ -1,3 +1,4 @@
+![image-20230814141638094](upload/artery_music_logo.png)
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
 <p align="center">
@@ -12,12 +13,12 @@
    </a>
 </p>
 
-#### 关于动脉音乐
+### 关于动脉音乐
 
 ArteryMusic是一个简单的在线音乐系统（动脉音乐网站），支持用户登录、用户注册、信息管理（增删改查）、音频播放以及数字购买商店等，集成最新的mysql数据库和mybatis框架；
 极大的提升该项目的使用体验与后续二次开发。
 
-#### 软件架构
+### 软件架构
 `Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
 
 ***需要引入的jar包***
@@ -31,7 +32,7 @@ mysql-connection-j-8.0.32.jar
 ```
 
 
-#### 安装部署教程
+### 安装部署教程
 
 1.  执行SQL，创建数据库
 ```md
@@ -41,8 +42,8 @@ mysql-connection-j-8.0.32.jar
 3.  访问测试！
 4.  自行根据代码逻辑填充测试数据，查看即可！
 
-#### 演示界面
-##### 前端
+### 演示界面
+#### 前端
 
 - 首页
 
@@ -60,7 +61,9 @@ mysql-connection-j-8.0.32.jar
 
 ![image-20230814141638094](upload/digital_store.png)
 
-##### 后端
+![image-20230814141638094](upload/artery_music_logo.png)
+
+#### 后端
 - 管理员操作界面
 
 ![image-20230814141418966](upload/admin.png)
