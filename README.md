@@ -1,6 +1,6 @@
 ![image-20230814141638094](upload/logo.png)
 <p align="center">
-    <img alt="logo" src="https://ik.imagekit.io/anyup/uview-pro/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
+    <img alt="logo" src="https://gitee.com/mayestspace/artery-music/blob/master/upload/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
