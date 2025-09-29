@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/badge/ArteryMusic-v1.1-brightgreen.svg">
    </a>
 	<a href="https://gitee.com/mayestspace/artery-music/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+      <img src="https://img.shields.io/badge/license-GPL%20v3-blue">
    </a>
 </p>
 
