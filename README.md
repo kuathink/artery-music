@@ -1,4 +1,4 @@
-![image-20230814141638094](upload/artery_music_logo.png)
+![image-20230814141638094](upload/logo.png)
 <p align="center">
     <img alt="logo" src="https://ik.imagekit.io/anyup/uview-pro/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p>
