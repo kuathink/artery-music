@@ -1,4 +1,4 @@
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic v1.1</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
 <p align="center">
    <a href="https://gitee.com/mayestspace/openfeet/stargazers">
