@@ -58,7 +58,7 @@ mysql-connection-j-8.0.32.jar
 
 ### 🌎️在线体验
 
-【免注册登录体验】：[https:/artery-music.com](https://www.artery-music.com)
+【免注册登录体验】：[https://artery-music.com](https://www.artery-music.com)
 
 【后台管理入口】：[http://localhost:8080/ArteryMusic/adminIndex.jsp](http://localhost:8080/ArteryMusic/adminIndex.jsp)
 
