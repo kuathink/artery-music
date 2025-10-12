@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="upload/logo(1).png" width="120" height="120" >
+    <img alt="logo" src="upload/logo%20(1).png" width="120" height="120" >
 </p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ArteryMusic</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
@@ -20,7 +20,12 @@
 ArteryMusic是一个简单的在线音乐系统（动脉音乐网站），支持用户登录、用户注册、信息管理（增删改查）、音频播放以及数字购买商店等，集成最新的mysql数据库和mybatis框架；
 极大的提升该项目的使用体验与后续二次开发。
 
+
+
 ### 软件架构
+
+
+
 `Java+Javaweb+Servlet+Jsp+mybatis+mysql+Tomcat`
 
 ***需要引入的jar包***
