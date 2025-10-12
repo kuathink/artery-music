@@ -60,7 +60,7 @@ mysql-connection-j-8.0.32.jar
 
 【免注册登录体验】：[https://music.rezone.top/](http://music.rezone.top/)
 
-【后台管理入口】：[http://localhost:8080/ArteryMusic/adminIndex.jsp](http://localhost:8080/ArteryMusic/adminIndex.jsp)
+【后台管理入口】：[https://music.rezone.top/adminIndex.jsp](https://music.rezone.top/adminIndex.jsp)
 
 ```java
 Tips 本地部署时换成实际本地端口进行访问。
