@@ -83,4 +83,4 @@ Tips 本地部署时换成实际本地端口进行访问。
 ### 📑许可证书
 
 本项目基于[GPL-3.0](https://gitee.com/mayestspace/artery-music/blob/master/LICENSE)协议许可，特此声明可用于个人课程设计与学习使用。
-
+**重点**：项目代码毫无保留开源，支持下载体验使用！！！
