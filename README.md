@@ -4,7 +4,7 @@
 <h1 align="center" style="font-weight: bold;">ArteryMusic</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)，支持Java和Maven双版本</h4>
 <p align="center">
-   <a href="https://gitee.com/mayestspace/openfeet/stargazers">
+   <a href="https://gitee.com/mayekun/artery-music/stargazers">
       <img src="https://gitee.com/mayestspace/artery-music/badge/star.svg?theme=gvp">
    </a>
 	<a href="https://gitee.com/mayestspace/artery-music">
