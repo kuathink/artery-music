@@ -2,7 +2,7 @@
     <img alt="logo" src="upload/logo%20(1).png" width="120" height="120" >
 </p>
 <h1 align="center" style="font-weight: bold;">ArteryMusic</h1>
-<h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)</h4>
+<h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)，支持Java和Maven双版本</h4>
 <p align="center">
    <a href="https://gitee.com/mayestspace/openfeet/stargazers">
       <img src="https://gitee.com/mayestspace/artery-music/badge/star.svg?theme=gvp">
