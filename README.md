@@ -58,15 +58,21 @@ git clone https://gitee.com/mayekun/artery-music.git
 
 ```java
 git checkout maven
-
 ```
 
-
-1.  执行SQL，创建数据库
+- 启动流程
+1.  在Navicat中连接`mysql`服务器后，执行SQL，创建数据库`arterymusic` 或直接导入SQL文件；
 ```md
 (SQL文件位于：https://gitee.com/mayestspace/artery-music/blob/master/src/arterymusic.spl)
 ```
-2.  项目导入IDEA 启动
+2.  项目导入IDEA 后，修改根目录下`jdbc.properties`配置文件中数据库的账号密码（改为自己本地设置的）,然后选择Tomcat服务器启动；
+```md
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/arterymusic?characterEncoding=utf-8
+#  请替换为你的本地数据库账户密码
+jdbc.username=root 
+jdbc.password=root
+```
 3.  访问测试！
 4.  自行根据代码逻辑填充测试数据，查看即可！
 
