@@ -17,6 +17,7 @@
 
 ### ✔️项目升级
 ❌️即将重磅发布`Maven`版本，敬请期待！！！
+
 ✔️Maven`版本已发布👇️
 【maven版本地址】: [https://gitee.com/mayekun/artery-music-maven](https://gitee.com/mayekun/artery-music-maven)
 
