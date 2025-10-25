@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="logo" src="upload/logo%20(1).png" width="120" height="120" >
 </p>
-<h1 align="center" style="font-weight: bold;">ArteryMusic</h1>
+<h1 align="center" style="font-weight: bold;">ArteryMusic v1.0</h1>
 <h4 align="center">基于JavaWeb的在线音乐系统（动脉音乐网站)，支持Java和Maven双版本</h4>
 <p align="center">
    <a href="https://gitee.com/mayekun/artery-music/stargazers">
